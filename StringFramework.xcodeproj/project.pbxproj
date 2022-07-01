@@ -10,6 +10,7 @@
 		98B3601E286F010E00DCF4C8 /* StringFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 98B3601D286F010E00DCF4C8 /* StringFramework.docc */; };
 		98B3601F286F010E00DCF4C8 /* StringFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B3601C286F010E00DCF4C8 /* StringFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98B36026286F012600DCF4C8 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B36025286F012600DCF4C8 /* String.swift */; };
+		98B36028286F683800DCF4C8 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 98B36027286F683300DCF4C8 /* Config.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,7 @@
 		98B3601C286F010E00DCF4C8 /* StringFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringFramework.h; sourceTree = "<group>"; };
 		98B3601D286F010E00DCF4C8 /* StringFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = StringFramework.docc; sourceTree = "<group>"; };
 		98B36025286F012600DCF4C8 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		98B36027286F683300DCF4C8 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 				98B3601C286F010E00DCF4C8 /* StringFramework.h */,
 				98B3601D286F010E00DCF4C8 /* StringFramework.docc */,
 				98B36025286F012600DCF4C8 /* String.swift */,
+				98B36027286F683300DCF4C8 /* Config.xcconfig */,
 			);
 			path = StringFramework;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B36028286F683800DCF4C8 /* Config.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
